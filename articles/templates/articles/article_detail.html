@@ -1,0 +1,20 @@
+{% extends 'base_layout.html' %}
+
+
+{% block content %}
+
+<br>
+<br>
+<div class="article-detail">
+  <div class="article">
+    <h2>By {{article.author.username}}</h2>
+    <h2>{{article.title}}</h2>
+    <hr>
+    <br>
+    <p><img src="{{ article.thumb.url }}"/></p>
+    <p>{{article.body}}</p>
+    <p>{{article.date}}</p>
+  </div>
+</div>
+
+{% endblock %}

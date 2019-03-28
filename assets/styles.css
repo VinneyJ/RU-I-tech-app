@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: darkblue;
+  text-align: left;
+  background-image: url(/static/image.jpg);
+}
+
+
+/*.container {
+  max-width: 1140px;
+  margin-top: 20px;
+  background-color: darkgray;
+}*/
+.content-section {
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+
+a, a:visited, a:hover{
+  text-decoration: none !important;
+}
+a {
+  color: aqua !important;
+  text-decoration: none !important;
+  background-color: transparent !important;
+}  
+a:visited{
+  color: blueviolet !important;
+}
+
+a:hover{
+  color: greenyellow !important;
+}
+
+.navbar-dark .navbar-brand {
+  color: darkgray;
+}
+
+#navbarSupportedContent .nav-item {
+  text-decoration-color: white !important;
+}
+
+.form .site-form {
+  display: block;
+  padding: 0 19px;
+  padding-top: 0px;
+  padding-right: 19px;
+  padding-bottom: 0px;
+  padding-left: 19px;
+}
+
+.wrapper .head{
+  text-align: center !important;
+  margin-bottom: 20px;
+  font-size: 3em;
+  font-family: ubuntu;
+  font-variant: s;
+  font-weight: 200;
+  background-color: black;
+}
+
+.container{
+  max-width: 1140px !important;
+  margin-top: 20px !important;
+  align-items: center !important;
+  justify-content: center !important;
+  background-color: lightslategray !important;
+  background: rgba(104, 126, 136, 0.7);
+  
+  
+}
+
+.articles {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  
+}
+
+
+.navbar-expand-md .navbar-nav .dropdown-menu {
+  position: absolute !important;
+}
+
+.btn-space{
+  margin-right: 5px !important;
+}
+
+
+
+
